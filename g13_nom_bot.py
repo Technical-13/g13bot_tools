@@ -268,7 +268,7 @@ class CategoryListifyRobot:
             add_text( \
               page = article, \
               addText = '{{db-g13}}', \
-              summary = '[[User:HasteurBot]]:Nominating for [[WP:G13|CSD:G13]]', \
+              summary = '[[User:HasteurBot]]:Nominating for [[CSD:G13]]', \
               always = True, \
               up = True
             )
@@ -290,7 +290,7 @@ class CategoryListifyRobot:
               'User talk:%s' % creator
             )
             up_summary = '[[User:HasteurBot]]: Notification of '+\
-              '[[WP:G13|CSD:G13]] nomination on [[%s]]' % (article.title())
+              '[[CSD:G13]] nomination on [[%s]]' % (article.title())
             add_text( \
               page = user_talk_page, \
               summary = up_summary, \
